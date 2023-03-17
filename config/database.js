@@ -11,5 +11,5 @@ const DatabaseConnect = async () => {
       console.log(err);
     });
 };
- 
-export { DatabaseConnect };
+
+export default DatabaseConnect;

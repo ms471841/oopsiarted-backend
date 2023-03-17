@@ -10,6 +10,11 @@ const schema = new mongoose.Schema({
     required: [true, "please enter imgurl"],
     unique: true,
   },
+  url: {
+    type: String,
+    required: [true, "please enter url"],
+    unique: true,
+  },
 });
 
 export const Posts = mongoose.model("Posts", schema);
