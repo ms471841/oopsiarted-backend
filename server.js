@@ -2,7 +2,7 @@ import app from "./app.js";
 import DatabaseConnect from "./config/database.js";
 import cloudinary from "cloudinary";
 
-//DatabaseConnect();
+DatabaseConnect();
 cloudinary.v2.config({
   cloud_name: process.env.CLOUD_NAME,
   api_key: process.env.CLOUD_API_KEY,
